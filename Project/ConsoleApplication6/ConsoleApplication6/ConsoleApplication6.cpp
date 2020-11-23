@@ -16,9 +16,9 @@ int main()
     printf("¬вед≥ть значенн€ х: ");
     scanf_s("%lf", &x);
     double b;
-    b = double(((4 * pow(sin(x), 3)) / (pow(1 + cos(5 * x), 2)) + cos(80 * M_PI / 180)));
+    b = double(((4 * pow(sin(x), 3)) / (pow(1 + tan(5 * x), 2)) + sin(80 * M_PI / 180)));
     printf("b=%lf", b);
-    {
+}
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
